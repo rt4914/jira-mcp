@@ -1,0 +1,19 @@
+{
+  "name": "jira-server",
+  "version": "0.1.0",
+  "description": "tool for interacting with Jira project",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": {
+    "jira-server": "./src/index.js"
+  },
+  "scripts": {
+    "inspector": "npx @modelcontextprotocol/inspector src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "jira-client": "^8.2.2",
+    "lodash": "^4.17.21"
+  }
+}
