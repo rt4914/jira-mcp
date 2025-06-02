@@ -25,7 +25,7 @@ Jira MCP (Model Context Protocol) is a tool designed to streamline and automate 
 ## Setup Instructions
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/goSprinto/jira-mcp.git
+   git clone https://github.com/rt4914/jira-mcp
    cd jira-mcp
    ```
 2. **Install dependencies:**
