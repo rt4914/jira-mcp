@@ -148,23 +148,23 @@ const toolDefinitions = {
       "required": ["projectKey", "summary", "issueType"]
     }
   },
-  "add_comment": {
-    "description": "Add a comment to a Jira issue.",
-    "inputSchema": {
-      "type": "object",
-      "properties": {
-        "issueKey": {
-          "type": "string",
-          "description": "The key of the issue to comment on."
-        },
-        "comment": {
-          "type": "string",
-          "description": "The comment text to add to the issue."
-        }
-      },
-      "required": ["issueKey", "comment"]
-    }
-  }
+  // "add_comment": {
+  //   "description": "Add a comment to a Jira issue.",
+  //   "inputSchema": {
+  //     "type": "object",
+  //     "properties": {
+  //       "issueKey": {
+  //         "type": "string",
+  //         "description": "The key of the issue to comment on."
+  //       },
+  //       "comment": {
+  //         "type": "string",
+  //         "description": "The comment text to add to the issue."
+  //       }
+  //     },
+  //     "required": ["issueKey", "comment"]
+  //   }
+  // }
 };
 
 function setupToolHandlers(server) {
